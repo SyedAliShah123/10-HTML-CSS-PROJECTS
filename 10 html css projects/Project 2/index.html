@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Job Application Form</title>
+  </head>
+  <body>
+    <div class="container">
+      
+      <form action="#">
+        <legend>JOB APPCATION FORM</legend>
+
+        <div class="section1">
+
+          <div class="form-control">
+            <label for="fname">First name</label>
+            <input type="text" id="fname" />
+          </div>
+          <div class="form-control">
+            <label for="lname">Last name</label> 
+            <input type="text" id="lname" />
+          </div>
+
+        </div>
+        
+        <div class="section2">
+
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" name="mail" id="email" />
+          </div>
+          <div class="form-control">
+            <label for="jb-role">job Role</label>
+            <select name="jb-role" id="jb-role">
+              <option value="front-end">Front-End Developer</option>
+              <option value="back-end">Back-End Developer</option>
+              <option value="mernstack-end">Mern-Stack Developer</option>
+              <option value="fullstack-end">Full-Stack Developer</option>
+            </select>
+          </div>
+
+        </div>
+
+        <div class="section3">
+
+          <div class="address">
+            <label for="address">Address</label> <br>
+            <textarea
+              name="address"
+              id="address"
+              cols="30"
+              rows="5"
+              placeholder="Enter your address"
+            ></textarea>
+          </div>
+
+        </div>
+
+        <div class="section4">
+
+          <div class="form-control">
+              <label for="city">City</label>
+              <input type="text" name="city" id="city" />
+          </div>
+          <div class="form-control">
+              <label for="pincode">Pincode</label>
+              <input type="number" name="pincode" id="pincode" />
+          </div>
+
+        </div>
+
+        <div class="section5">
+
+          <div class="form-control">
+              <label for="date">Start date</label>
+              <input type="date" name="date" id="date" />
+          </div>
+          <div class="form-control">
+              <label for="file">Upload Your CV</label>
+              <input type="file" name="file" id="file" />
+          </div>
+
+        </div>
+
+        <div class="section6">
+            <label for="submit">Submit your Form</label>
+            <button type="submit" id="submit">Submit</button>
+        </div>
+
+      </form>
+      
+    </div>
+  </body>
+</html>
